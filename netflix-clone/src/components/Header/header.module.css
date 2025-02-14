@@ -1,0 +1,29 @@
+.headerOuterContainer {
+    height: 10vh;
+    background-color: #111;
+    color: #fff;
+}
+
+.headerInnerContainer {
+    height: 10vh;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLeftContainer ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+
+}
+
+.headerRightContainer ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+
+}
