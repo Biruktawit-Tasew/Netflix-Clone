@@ -16,9 +16,7 @@ const Banner = () => {
       })()
     }, [])
     const truncate = (string,max_num) => {
-        return string?.length > max_num
-          ? string.substr(0, max_num - 1) + "..."
-          : string;
+        return string?.length > max_num ? string.substr(0, max_num - 1) + "..." : string;
     }
   return (
     <div
